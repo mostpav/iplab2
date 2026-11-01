@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №2 — регулярні вирази</title>
+</head>
+<body>
+    <h1>Демонстрація lab2-2.js</h1>
+    <p>Результати демонстрації дивіться у консолі браузера.</p>
+
+    <script src="lab2-2.js"></script>
+    <script>
+        console.log("isIPAddress:", isIPAddress("192.168.0.1")); // true
+        console.log("findRGBA:", findRGBA("color: rgba(10, 20, 30, 0.5);"));
+        console.log("findHexColor:", findHexColor("background: #ABCDEF;"));
+        console.log("findTags:", findTags('<p>Text</p><img src="x">', "img"));
+        console.log("findPosNum:", findPosNum("Кількість: 12, ціна 3.5, від'ємне -4"));
+        console.log("findDates:", findDates("Дати: 2026-11-01 та 2025-02-18"));
+    </script>
+</body>
+</html>
